@@ -1,19 +1,9 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-
-
-const fName = 'Ashish';
-const lName = 'Thomas';
+import React from "react";
+import ReactDOM from "react-dom";
+import App from "./components/App.jsx";
+import "./style/index.css";
 
 ReactDOM.render(
-    <div>
-        <h1> Hi { fName + " " + lName }! </h1>
-        <p>Your Lucky Number is { Math.floor(Math.random() * 10) } </p>
-        <br></br>
-        <br></br>
-        <br></br>
-        <p>Created by { fName + " " + lName } </p>
-        <p>Copyright&#169; { (new Date()).getFullYear() } </p>
-    </div>,
+    <App />,
     document.getElementById('root')
 );
