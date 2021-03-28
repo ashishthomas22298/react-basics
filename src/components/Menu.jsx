@@ -5,11 +5,10 @@ import "../style/Menu.css";
 
 function Menu(){
     return <ul className="Menu">
-        <li>About</li>
-        <li>Services</li>
-        <li>Blog</li>
-        {/* <li><i className="fa fa-search" aria-hidden="true"></i></li> */}
-        <li><span className="search"></span></li>
+        <li><a href="#about" >About</a></li>
+        <li><a href="#services" >Services</a></li>
+        <li><a href="#blog" >Blog</a></li>
+        <li><a href="#search" ><span className="search"></span></a></li>
     </ul>;
 } 
 
