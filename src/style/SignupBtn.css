@@ -1,0 +1,10 @@
+.SignUp{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    background-color: #130f26;
+    color: white;
+    margin-left: 1.5rem;
+    padding: .6rem 1rem;
+    border-radius: .6rem;
+}

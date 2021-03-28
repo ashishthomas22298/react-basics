@@ -1,0 +1,13 @@
+<svg width="348" height="351" xmlns="http://www.w3.org/2000/svg">
+ <g>
+  <title>Layer 1</title>
+  <ellipse fill-opacity="0" fill="url(#svg_2)" stroke="#130f26" cx="167.3858" cy="166.88581" id="svg_1" rx="127.5" ry="127.5" stroke-width="20"/>
+  <line fill="none" opacity="undefined" x1="256.15459" y1="259.6546" x2="308.11418" y2="311.61419" id="svg_3" stroke-linejoin="undefined" stroke-linecap="undefined" stroke="#130f26" stroke-width="20"/>
+ </g>
+ <defs>
+  <linearGradient y2="0" x2="1" y1="0" x1="0" id="svg_2">
+   <stop offset="0" stop-color="#fff"/>
+   <stop offset="1" stop-color="#000000"/>
+  </linearGradient>
+ </defs>
+</svg>
