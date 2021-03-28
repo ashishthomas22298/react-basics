@@ -3,3 +3,8 @@
     font-weight: 800;
     font-size: 1.8rem;
 }
+
+a[href="#top"]{
+    text-decoration: none;
+    color: #130f26;
+}

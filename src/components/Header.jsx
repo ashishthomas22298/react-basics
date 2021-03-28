@@ -7,7 +7,7 @@ import LoginBtns from "./LoginBtns.jsx";
 import "../style/Header.css";
 
 function Header(){
-    return <div className="Header">
+    return <div id="Header">
         <div className="Navbar">
         <Logo></Logo>
         <Menu></Menu>

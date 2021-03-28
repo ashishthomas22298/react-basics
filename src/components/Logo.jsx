@@ -3,7 +3,7 @@ import React from "react";
 import "../style/Logo.css";
 
 function Logo(){
-    return <div className="Logo">NicePlace</div>;
+    return <div className="Logo"><a href ="#top">NicePlace</a></div>;
 }
 
 export default Logo;

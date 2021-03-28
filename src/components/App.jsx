@@ -11,6 +11,7 @@ import "../style/App.css";
 
 function App(){
     return <div className="app" >
+        <div id="top"></div>
         <Header />
         <Section id="home" color = "red" ></Section>
         <Section id="about" ></Section>
@@ -24,6 +25,24 @@ function App(){
 $(window).on("load",function(){
     let firstSection = $("#home");
     firstSection.height( firstSection.height() - $("div.Header").outerHeight() );
+
+    // Sticky header
+
+    let header = $("#Header");
+    console.log(header);
+    
+    window.onscroll = function() {stickyHeader()};
+
+    var sticky = header.outerHeight();
+    
+    function stickyHeader() {
+        console.log(sticky + " " + window.pageYOffset);
+      if (window.pageYOffset > sticky) {
+        header.addClass("sticky");
+      } else {
+        header.removeClass("sticky");
+      }
+    }
 });
 
 

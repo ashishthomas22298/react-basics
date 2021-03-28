@@ -1,7 +1,19 @@
-.Header{
+#Header{
     max-width: 100%;
     padding: 2rem 6rem;
+    background-color: transparent;
+    position: sticky;
+    top:0;
+    transition: 1s ease-in-out;
 }
+.sticky{
+    background-color: white !important;
+    -webkit-box-shadow: 0 -20px 70px rgb(57 63 72 / 30%);
+  -moz-box-shadow: 0 -20px 70px rgb(57 63 72 / 30%);
+  box-shadow: 0 -20px 70px rgb(57 63 72 / 30%);
+}
+
+
 
 .Navbar{
     height: 100%;
