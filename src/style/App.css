@@ -3,3 +3,21 @@
     max-width: 100vw;
     position: relative;
 }
+
+section{
+    height: 100vh;
+    width: 100%;
+}
+
+.JumbotronContainer{
+    display: flex;
+    justify-content: center;
+}
+
+.Jumbotron{
+    height: calc(100% - 200px);
+    width: calc(100% - 150px);
+    background: url('../images/jumbo.jpg') no-repeat;
+    background-size: cover;
+    border-radius: 3rem;
+}

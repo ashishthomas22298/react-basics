@@ -1,16 +1,16 @@
 #Header{
     max-width: 100%;
     padding: 2rem 6rem;
-    background-color: transparent;
+    background-color: white;
     position: sticky;
     top:0;
-    transition: 1s ease-in-out;
+    transition: 0.3s ease-in;
 }
 .sticky{
-    background-color: white !important;
-    -webkit-box-shadow: 0 -20px 70px rgb(57 63 72 / 30%);
-  -moz-box-shadow: 0 -20px 70px rgb(57 63 72 / 30%);
-  box-shadow: 0 -20px 70px rgb(57 63 72 / 30%);
+    padding: .7rem 6rem !important;
+    -webkit-box-shadow: 0 -7px 30px rgb(57 63 72 / 30%);
+    -moz-box-shadow: 0 -7px 30px rgb(57 63 72 / 30%);
+    box-shadow: 0 -7px 30px rgb(57 63 72 / 30%);
 }
 
 
